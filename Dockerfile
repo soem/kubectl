@@ -2,8 +2,8 @@ FROM alpine
 
 MAINTAINER CheChia Chang <chechiachang@outlook.com>
 
-ARG KUBE_VERSION="v1.19.7"
-ENV KUBE_VERSION ${KUBE_VERSION}  
+ARG KUBE_VERSION="v1.19.8"
+ENV KUBE_VERSION ${KUBE_VERSION}
 
 RUN apk add --update ca-certificates \
  && apk add --update -t deps curl \
