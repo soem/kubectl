@@ -1,4 +1,4 @@
-FROM alpine
+FROM mirror.gcr.io/library/alpine
 
 MAINTAINER ChihChieh, Huang <soem.hcc@gmail.com>
 
