@@ -1,8 +1,8 @@
 FROM alpine
 
-MAINTAINER CheChia Chang <chechiachang@outlook.com>
+MAINTAINER ChihChieh, Huang <soem.hcc@gmail.com>
 
-ARG KUBE_VERSION="v1.19.8"
+ARG KUBE_VERSION="v1.19.9"
 ENV KUBE_VERSION ${KUBE_VERSION}
 
 RUN apk add --update ca-certificates \
@@ -12,4 +12,4 @@ RUN apk add --update ca-certificates \
  && apk del --purge deps \
  && rm /var/cache/apk/*
 
-CMD ["kubectl"]  
+CMD ["kubectl"]
