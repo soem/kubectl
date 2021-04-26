@@ -2,7 +2,7 @@ FROM alpine
 
 MAINTAINER ChihChieh, Huang <soem.hcc@gmail.com>
 
-ARG KUBE_VERSION="v1.19.9"
+ARG KUBE_VERSION="v1.19.10"
 ENV KUBE_VERSION ${KUBE_VERSION}
 
 RUN apk add --update ca-certificates \
